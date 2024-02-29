@@ -1,10 +1,20 @@
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Merriweather;
+  src: url(./fonts/Merriweather-Regular.ttf);
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 h1,
@@ -40,7 +50,7 @@ img {
 
 h1,
 h2 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Merriweather, 'Times New Roman', Times, serif;
   text-align: center;
 }
 
